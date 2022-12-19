@@ -1,7 +1,11 @@
 .logo{
-    width: 100px;
+    width: 250px;
 }
 
 .text-center{
     justify-content: center;
+}
+
+.flex {
+    display: block;
 }
