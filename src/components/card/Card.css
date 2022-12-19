@@ -1,14 +1,28 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  width: 350px;
+  height: 350px;
+  padding: 10px;
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scaleY(1.05);
+  transition: 0.5s;
 }
 
 .card img{
     width: 100%;
+    height: 207px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .container {
@@ -17,12 +31,18 @@
 
 .btn{
   padding: 10px ;
-  background-color: orangered;
+  background-color: #0B5ED7;
   color: white;
   font-size: 1rem;
   border: none;
   min-width: 200px;
   display: block;
   margin-bottom: 15px;
+}
+
+.btn:hover {
+  background-color: #ffa400;
+  color: #000;
+  font-weight: bold;
 }
 
