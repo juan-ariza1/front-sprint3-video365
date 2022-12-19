@@ -1,7 +1,21 @@
 .logo{
-    width: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .text-center{
     justify-content: center;
+}
+
+.flex {
+    display: block;
+}
+
+.flex h1 {
+    color: #ffa400;
+    font-weight: bold;
+}
+.flex h2 {
+    color: #09009b;
+    font-weight: bold;
 }

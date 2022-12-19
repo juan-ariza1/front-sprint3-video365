@@ -153,12 +153,17 @@ export const Movie = () => {
                 <option key={idx}>{element}</option>
               ))}
             </select>
-            <button
+            {/*<button
               onClick={handleAddList}
               className={isActive ? "active" : ""}
             >
               Agregar a mi lista
-            </button>
+              </button>*/}
+            <div class="container1">
+              <div class="btn1">
+                <a href="#">Agregar a mi lista</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

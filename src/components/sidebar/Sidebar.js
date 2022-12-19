@@ -1,7 +1,3 @@
-
-
-export const Sidebar=()=>{
-    return (
-       "sidebar"
-    )   
-   }
+export const Sidebar = () => {
+  return "";
+};

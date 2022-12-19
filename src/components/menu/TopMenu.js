@@ -28,7 +28,7 @@ export const TopMenu = () => {
   };
 
   const bootstrapMenu = () => (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="back" bg="light" expand="lg">
       {isAuth() ? (
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
