@@ -6,10 +6,11 @@ div.scrollmenu {
   
   div.scrollmenu a {
     display: inline-block;
-    color: #fff;
+    color: #000;
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    z-index: 100;
   }
   
   div.scrollmenu a:hover {
@@ -18,9 +19,8 @@ div.scrollmenu {
 
   
 .navbar {
-  overflow: hidden;
+  /*overflow: hidden;*/
   background-color: #333;
-  /*background-color: #ff8000;*/
 }
 
 .navbar a {
@@ -42,7 +42,7 @@ div.scrollmenu {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: white;
+  color: #fff;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -50,7 +50,6 @@ div.scrollmenu {
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  /*background-color: #d8dee9;*/
   background-color: rgba(216, 222, 233, 0.4);
   cursor: pointer;
 }
@@ -66,7 +65,7 @@ div.scrollmenu {
 
 .subnav-content a {
   float: left;
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -83,4 +82,10 @@ div.scrollmenu {
   background-color: #ffa400!important;
 }
 
+.nav-item {
+  color: #000;
+}
 
+.basic {
+  color: #000!important;
+}

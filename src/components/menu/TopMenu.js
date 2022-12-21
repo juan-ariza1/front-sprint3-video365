@@ -40,6 +40,7 @@ export const TopMenu = () => {
               <NavDropdown title="Categorías" id="basic-nav-dropdown">
                 {categories.map((item, idx) => (
                   <NavDropdown.Item
+                    className="basic"
                     as={Link}
                     key={idx}
                     to={`/category/${item.name}`}
